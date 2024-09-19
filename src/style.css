@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+    height: inherit;
+    overflow-x: hidden;
+}
+.main{
+    width: 100%;
+    background-color: #ffffff;
+    height: 100vw;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.navbar .logo{
+        width: 160px;
+        cursor:pointer;
+        margin-top: -3%;
+        margin-left: -2%;
+}
+
+ul{
+    margin-top: -4%;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategray;
+    margin-top: -3%;
+    transition: .4s ease;
+}
+
+ul li a:hover{
+    color: pink;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.information button:hover{
+    color: #e895b1;
+}
+.information h1{
+    font-size: 65px;
+    color: rgb(36,32,30);
+}
+
+.information h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.information span{
+    color: pink;
+}
+
+.information a{
+    text-decoration: none;
+    color: #fff;
+    background: rgb(36,32,30);
+    margin:26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+
+.information a:hover{
+    background: rgb(#e895b1);
+}
+
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+
+.image img{
+    position: absolute;
+    height: 140%;
+    left: 40%;
+    transform: translate(-55%);
+    bottom: 0;
+    transition: left 2s ease;
+}
+
+.image:hover .akonga{
+    left: 80%;
+}
+
+/*.home{
+    background-color: rgb(250, 248, 249);
+    position: absolute;
+}*/
+
+.home img{
+    align-items: center;
+
+}
+
+.introduce{
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #e895b1;
+    color: #edebec;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.introduce .h1{
+    font-size: 65px;
+    color: rgb(36,32,30);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    align-items: center;
+}
+
+.introduce .names{
+    text-align: left;
+    padding: 10px 360px;
+}
+
+.introduce .float{
+    float:right;
+    padding: -1000px 5000px;
+}
+
+.introduce .language{
+    width: 50%;
+    padding: 50px 400px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+}

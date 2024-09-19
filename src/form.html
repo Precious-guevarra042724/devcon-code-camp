@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel= "stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="introduce">
+
+    <form method="post" action="process.php">
+        <br>
+        <br>
+        <br>
+               
+        <h1> Introduce Yourself</h1>
+        <br>
+        <br>
+        <br>
+        
+        First Name: <input type="text" size="30" name="fname"/><br><br>
+        Last Name: <input type="text" size="30" name="lname"/><br><br>
+
+    <br>
+    
+    <div class="info">
+        <div class="names">
+           <h3> Year Level: </h3><br>
+           
+            <input type="radio"  name="yearlevel" value="FirstYear"/>First Year<br><br>
+            <input type="radio"  name="yearlevel" value="SecondYear"/>Second Year<br><br>
+            <input type="radio"  name="yearlevel" value="ThirdYear"/>Third Year<br><br>
+            <input type="radio"  name="yearlevel" value="FourthYear"/>Fourth Year
+        </div>
+
+
+        <div class="float">
+            <h3>Hobbies: </h3><br>
+            
+            <input type="checkbox"  name="reading" value="reading"/>Reading<br><br>
+            <input type="checkbox"  name="writing" value="writing"/>Writing<br><br>
+            <input type="checkbox"  name="singing" value="singing"/>Singing<br><br>
+            <input type="checkbox"  name="dancing" value="dancing"/>Dancing
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="language">
+        <h3>Select Language</h3>
+        <select name="language">
+            <option value="Filipino">Filipino</option>
+            <option value="English">English</option>
+            <option value="Chinese">Chinese</option>
+            <option value="Korean">Korean</option>
+            <option value="Japanese">Japanese</option>
+        </select>
+
+    </div>
+    <h3> Tell us more about yourself: </h3><br>
+    <textarea name="more" rows="8" cols="150">
+        Type here:
+    </textarea>
+    
+
+    <div class="btn">
+        <a href="portfoliowebsite.html" class="button">Submit</a>
+    </div>
+</div>
+</form>
+</body>
+</html>
